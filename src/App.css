@@ -1,0 +1,13 @@
+* {
+    font-family: 'Arial', sans-serif; 
+  }
+  
+  p {
+    color: #333; 
+    font-size: 16px; 
+  }
+  
+  .some-class {
+    font-family: 'Verdana', sans-serif;
+    color: #555; 
+  }

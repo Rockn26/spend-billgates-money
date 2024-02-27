@@ -1,0 +1,21 @@
+.receipt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin: 0 auto; 
+}
+
+.receipt-item {
+  list-style: none;
+  padding: 5px 0;
+  text-align: center; 
+}
+
+.total-spent {
+  font-weight: bold;
+  color: #333;
+  text-align: center; 
+}

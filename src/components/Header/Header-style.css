@@ -1,0 +1,16 @@
+.img-container {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.img-container img {
+  width: 100px; 
+  height: auto;
+  border-radius: 50%; 
+}
+
+.h1 {
+  color: #333;
+  font-family: Arial, sans-serif;
+}

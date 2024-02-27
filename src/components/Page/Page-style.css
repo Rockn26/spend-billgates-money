@@ -1,0 +1,64 @@
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px; 
+    background-color: #f4f4f4; /
+  }
+  
+  .item {
+    flex: 1 1 calc(33.333% - 40px);
+    background-color: #ffffff; 
+    margin-bottom: 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+  }
+  .item img {
+    width: 50%; 
+    height: 150px; 
+    object-fit: cover; 
+  }
+  
+  
+  .item h3 {
+    color: #333333; 
+    margin: 10px 0;
+  }
+  
+  .item p {
+    color: #2ecc71; /* Fiyat rengi */
+    margin: 5px 0 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 10px;
+  }
+  
+  .button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px; 
+    cursor: pointer; 
+    font-size: 14px; 
+  }
+  
+  .button:disabled {
+    background-color: #cccccc; 
+  }
+  
+  .input {
+    border: 1px solid #cccccc; 
+    border-radius: 4px; 
+    padding: 8px;
+    width: 50px; 
+    text-align: center; 
+  }
+  
